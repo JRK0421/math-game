@@ -2,8 +2,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: math-game-deployment
-  labels:
-    app: math-game
 spec:
   replicas: 3
   selector:
@@ -18,4 +16,4 @@ spec:
       - name: math-game
         image: jay0421/fun_math:latest
         ports:
-        - containerPort: 80
+        - containerPort: 3000
