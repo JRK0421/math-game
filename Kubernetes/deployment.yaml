@@ -16,4 +16,4 @@ spec:
       - name: math-game
         image: jay0421/fun_math:latest
         ports:
-        - containerPort: 3000   # Expose the container port 3000
+        - containerPort: 80
