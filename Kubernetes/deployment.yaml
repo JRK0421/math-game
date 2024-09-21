@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: math-game
-        image: jay0421/fun_math:latest
+        image: jay0421/math:latest
         ports:
         - containerPort: 80
